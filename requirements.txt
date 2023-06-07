@@ -4,4 +4,4 @@ numpy
 transformers
 opencv-python
 pillow
-pytorch
+torch
