@@ -2,6 +2,5 @@ pandas
 streamlit
 numpy
 transformers
-opencv-python
 pillow
 torch
