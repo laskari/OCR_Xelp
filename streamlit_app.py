@@ -23,7 +23,6 @@ if uploaded_file is not None:
     content = uploaded_file.read()
     st.image(uploaded_file)
     image = Image.open(uploaded_file)
-    # image = cv2.imread(uploaded_file)
     pixel_values = processor(images=image, return_tensors="pt").pixel_values
     predicted_text = TrOCR_predict(pixel_values, processor, model)[0]
     texts = predicted_text
