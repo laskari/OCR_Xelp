@@ -3,7 +3,6 @@ from http import client
 import os,json
 import pandas as pd
 import requests
-import cv2
 from PIL import Image
 from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 st.header("Xelpmoc - Optical Character Recognition - Document AI")
